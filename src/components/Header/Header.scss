@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: max-content;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgba(128, 128, 128, 0.727);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.507);
+
+    backdrop-filter: blur(5px);
+}
+
+a {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    top: 30px;
+    transform: translateX(-50%);
+    left: 50%;
+}
